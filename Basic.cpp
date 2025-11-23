@@ -78,6 +78,7 @@ int main() {
     second->next = third;
     third->value = 3;
     third->next = NULL;
+    
     insertAtBeginning(&head, 0);
     ineserAtEnd(&head, 4);
     insertAfter(second, -2);
